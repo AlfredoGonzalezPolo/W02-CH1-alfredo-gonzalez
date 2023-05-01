@@ -1,0 +1,36 @@
+.principal-container {
+  height: 100%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+
+  .container-sedan {
+    background-color: rgb(255, 123, 29);
+    height: 100%;
+    padding: 40px;
+    color: white;
+    border-radius: 4% 4% 0% 0%;
+  }
+
+  .container-suv {
+    background-color: rgb(32, 131, 138);
+    height: 100%;
+    padding: 40px;
+    color: white;
+  }
+
+  .container-luxury {
+    background-color: rgb(5, 51, 5);
+    height: 100%;
+    padding: 40px;
+    color: white;
+    border-radius: 0% 0% 4% 4%;
+  }
+
+  .container__link {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20% 20% 20% 20%;
+  }
+}
